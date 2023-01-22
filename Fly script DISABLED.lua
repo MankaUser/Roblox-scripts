@@ -1,4 +1,6 @@
-local flyspeed = 80
+-- useless script
+-- don't use it because it doesn;t disabling fly
+local flyspeed = game.Players.LocalPlayer.Character.Humanoid.WalkSpeed
 local flying = false
 local maxdistance = 100000000000000 --using math.huge makes this script wonky
 local uiservice = game.UserInputService
