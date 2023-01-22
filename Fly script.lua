@@ -73,4 +73,5 @@ uiservice.InputEnded:connect(function(key)
     keys[getkey(key.KeyCode).."_active"] = false
 end)
     else
+    local flying = false
     flying = not flying
