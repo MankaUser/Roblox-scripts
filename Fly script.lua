@@ -1,3 +1,4 @@
+if state then
 local flyspeed = 80
 local flying = true
 local maxdistance = 100000000000000 --using math.huge makes this script wonky
@@ -71,3 +72,5 @@ end)
 uiservice.InputEnded:connect(function(key)
     keys[getkey(key.KeyCode).."_active"] = false
 end)
+    else
+    flying = not flying
