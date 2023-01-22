@@ -1,5 +1,5 @@
 local flyspeed = 80
-local flying = false
+local flying = true
 local maxdistance = 100000000000000 --using math.huge makes this script wonky
 local uiservice = game.UserInputService
 local lplr = game.Players.LocalPlayer
